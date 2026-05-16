@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 识物</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --accent: #0071e3;
+            --border: #d2d2d7;
+            --card-bg: #f5f5f7;
+            --radius: 12px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1d1d1f;
+                --text: #f5f5f7;
+                --text-secondary: #a1a1a6;
+                --accent: #2997ff;
+                --border: #424245;
+                --card-bg: #2d2d2f;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            color: white;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+        .update-date {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+        }
+        .highlight-box {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            margin: 20px 0;
+        }
+        .highlight-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        .highlight-box li {
+            padding: 6px 0;
+            padding-left: 20px;
+            position: relative;
+            color: var(--text-secondary);
+        }
+        .highlight-box li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">🔍</div>
+            <h1>隐私政策</h1>
+            <p class="update-date">最后更新日期：2026 年 5 月 16 日</p>
+        </header>
+
+        <section>
+            <h2>引言</h2>
+            <p>
+                "识物"（以下简称"本应用"或"我们"）深知个人信息对您的重要性。我们致力于保护您的隐私，并确保您了解我们如何收集、使用和保护您的信息。本隐私政策旨在向您说明我们如何处理您的个人数据。
+            </p>
+            <p>
+                使用本应用即表示您同意本隐私政策中描述的数据处理方式。如果您不同意本政策，请不要使用本应用。
+            </p>
+        </section>
+
+        <section>
+            <h2>我们收集的信息</h2>
+            <p>本应用收集以下类型的信息：</p>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>照片与图片</strong>：您在创建知识卡片时拍摄或选择的照片，用于 AI 内容识别。</li>
+                    <li><strong>用户生成内容</strong>：您手动输入的卡片标题、内容、标签等文字信息。</li>
+                    <li><strong>设备与使用数据</strong>：应用崩溃日志、性能数据等匿名化的使用统计信息（通过 Apple 系统服务收集）。</li>
+                    <li><strong>订阅信息</strong>：您的订阅状态和购买记录（由 Apple StoreKit 管理，我们不直接获取您的付款信息）。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>我们如何收集信息</h2>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>主动提供</strong>：您主动拍照、选择图片、输入文字内容时。</li>
+                    <li><strong>自动收集</strong>：应用崩溃日志由 Apple 系统服务自动收集（如您开启了"共享分析"）。</li>
+                    <li><strong>第三方服务</strong>：订阅购买通过 Apple StoreKit 处理，我们不直接收集付款信息。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>信息的使用目的</h2>
+            <p>我们收集的信息仅用于以下目的：</p>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>AI 图片内容识别</strong>：将您选择的照片发送至豆包视觉 API（火山引擎/字节跳动提供），用于分析图片内容并生成知识卡片。这是本应用的核心功能。</li>
+                    <li><strong>数据持久化</strong>：将卡片数据存储在您的设备本地，以便您随时查看和管理。</li>
+                    <li><strong>订阅服务</strong>：验证您的订阅状态，管理每日使用配额。</li>
+                    <li><strong>服务改进</strong>：通过匿名化的崩溃日志和性能数据改进应用体验。</li>
+                </ul>
+            </div>
+            <p>
+                <strong>我们不会</strong>将您的信息用于广告投放、用户画像、自动化决策或任何形式的追踪。
+            </p>
+        </section>
+
+        <section>
+            <h2>第三方数据共享</h2>
+            <p>
+                当您使用 AI 图片识别功能时，您选择的照片会被发送至<strong>豆包视觉 API</strong>（由北京火山引擎科技有限公司提供），用于分析图片内容。这是实现核心功能所必需的数据处理。
+            </p>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>共享内容</strong>：仅限您选择的照片（经过压缩处理以减小传输体积）。</li>
+                    <li><strong>共享目的</strong>：仅用于图片内容识别和分析。</li>
+                    <li><strong>数据处理</strong>：豆包 API 在完成识别后会返回识别结果文本，<strong>不存储您的照片数据</strong>。</li>
+                    <li><strong>数据安全</strong>：传输过程使用 HTTPS 加密。</li>
+                    <li><strong>用户同意</strong>：首次使用 AI 识别功能时，应用会弹出明确的同意提示，告知您照片将被发送至第三方 AI 服务。您可以选择拒绝，拒绝后不会进行 AI 识别。</li>
+                </ul>
+            </div>
+            <p>
+                除上述场景外，我们<strong>不会</strong>将您的个人信息出售、交易或转让给任何其他第三方。
+            </p>
+        </section>
+
+        <section>
+            <h2>数据存储与安全</h2>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>本地存储</strong>：您的卡片数据、照片、标签等信息主要存储在您的设备本地（使用 Apple SwiftData 框架）。</li>
+                    <li><strong>安全存储</strong>：您配置的 API 密钥等敏感信息存储在 iOS 钥匙串（Keychain）中，使用硬件级加密保护。</li>
+                    <li><strong>云端同步</strong>：订阅状态等信息可能通过加密连接同步至我们的后端服务器，但不包含您的照片或卡片内容。</li>
+                    <li><strong>数据保留</strong>：您的数据保存在您的设备上，直到您主动删除。归档的卡片将在 7 天后自动永久删除。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>您的权利</h2>
+            <p>根据适用的数据保护法律，您拥有以下权利：</p>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>访问与查看</strong>：您可以在应用中随时查看所有卡片数据。</li>
+                    <li><strong>修改与更正</strong>：您可以在应用中编辑或更新卡片内容。</li>
+                    <li><strong>删除数据</strong>：您可以在应用中删除任何卡片，数据将被永久移除。</li>
+                    <li><strong>撤回同意</strong>：您可以在应用设置中随时撤回 AI 数据共享同意。撤回后，AI 识别功能将不可用，但不会影响已有的卡片数据。</li>
+                    <li><strong>导出数据</strong>：您可以通过截图或手动复制的方式导出您的数据。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>儿童隐私</h2>
+            <p>
+                本应用不面向 13 岁以下的儿童。我们不会故意收集 13 岁以下儿童的个人信息。如果您是父母或监护人，并认为您的孩子向我们提供了个人信息，请与我们联系，我们将立即删除相关数据。
+            </p>
+        </section>
+
+        <section>
+            <h2>不追踪声明</h2>
+            <p>
+                本应用<strong>不会追踪您</strong>。我们不会使用任何追踪技术（如 Cookie、设备指纹、跨应用追踪等）来收集您的使用行为数据。我们不会将您的数据用于广告目的，也不会与数据经纪商共享信息。
+            </p>
+        </section>
+
+        <section>
+            <h2>第三方链接与服务</h2>
+            <p>
+                本应用可能包含指向第三方网站或服务的链接（如 GitHub 项目页面）。我们对这些第三方网站的隐私实践不承担任何责任。建议您在访问时阅读其隐私政策。
+            </p>
+        </section>
+
+        <section>
+            <h2>政策更新</h2>
+            <p>
+                我们可能会不时更新本隐私政策。更新后的政策将在本页面发布，并在应用中通知您。重大变更可能需要您重新确认同意。建议您定期查看本页面以了解最新信息。
+            </p>
+        </section>
+
+        <section>
+            <h2>联系我们</h2>
+            <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式联系我们：</p>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>电子邮件</strong>：695162908@qq.com</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>法律依据</h2>
+            <p>
+                本隐私政策依据以下法律法规制定：
+            </p>
+            <div class="highlight-box">
+                <ul>
+                    <li>《中华人民共和国个人信息保护法》（PIPL）</li>
+                    <li>《中华人民共和国网络安全法》</li>
+                    <li>《中华人民共和国数据安全法》</li>
+                    <li>欧盟《通用数据保护条例》（GDPR）</li>
+                    <li>美国《加州消费者隐私法案》（CCPA）</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 识物. 保留所有权利。</p>
+            <p style="margin-top: 8px;">
+                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple 标准最终用户许可协议</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
